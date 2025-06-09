@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Mentor AI</title>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+    <!-- side panel -->
+
+  <div class="sidepanel">
+
+    <div class="logo-section">
+      <i class="fas fa-robot"></i>
+      <p>Code Mentor AI</p>
+    </div>
+
+    <div class="sidepanel-section">
+      <i class="fas fa-home"></i>
+      <p>Dashboard</p>
+    </div>
+
+    <div class="sidepanel-section">
+      <i class="fas fa-history"></i>
+      <p>History</p>
+    </div>
+
+    <div class="sidepanel-section">
+      <i class="fas fa-book"></i>
+      <p>Tutorials</p>
+    </div>
+
+    <div class="sidepanel-section">
+      <i class="fas fa-code"></i>
+      <p>Playground</p>
+    </div>
+
+    <div class="sidepanel-section">
+      <i class="fas fa-cog"></i>
+      <p>Settings</p>
+    </div>
+
+    <div class="footer">
+      <p>Code Mentor AI v2.0<br>Powered by Gemini API</p>
+    </div>
+
+  </div>
+
+  <!-- main page -->
+
+  <div class="main-page">
+    <div class="header">
+        <div class="title">
+            Coding Instructor AI
+
+        </div>
+
+        <div class="mode">
+            <div class="logo">
+                <i class="fas fa-moon"></i>
+
+            </div>
+
+            <div class="dark-mode">
+                Dark Mode
+
+            </div>
+
+        </div>
+
+        <div class="profile">
+            <div class="logo2">
+                <i class="fas fa-user"></i>
+
+            </div>
+
+            <div class="profile-text">
+                profile
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="dashboard-topics">
+        <div class="dashboard">
+            <div class="solved-question">
+                <div class="logo_new">
+                    <i class="fas fa-code-branch fa-2x"></i>
+
+                </div>
+
+                <div class="number-of-solved-problems">
+                    1,248
+
+                </div>
+
+                <div class="solved-question-text">
+                    Questions Solved
+
+                </div>
+
+            </div>
+
+            <div class="languages">
+
+                <div class="logo_new_1">
+                    <i class="fas fa-language fa-2x"></i>
+
+                </div>
+
+                <div class="number-of-languages">
+                    24
+
+                </div>
+
+                <div class="languages-text">
+                    languages
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="topics">
+            <div class="popular-topics">
+                <div class="popular-topics-logo">
+                    <i class="fas fa-fire"></i> 
+
+                </div>
+
+                <div class="popular-topics-text">
+                    Popular Topics
+
+                </div>
+
+            </div>
+
+            <div class="list-of-topics">
+                <ul>
+                    <li>JavaScript Closures</li>
+                    <li>Python Decorators</li>
+                    <li>React Hooks</li>
+                    <li>Recursion Patterns</li>
+                    <li>Async/Await</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="Ask-question">
+        <div class="Ask-a-coding-question">
+            <div class="Ask-a-coding-question-logo">
+                <i class="fas fa-question-circle"></i>
+
+            </div>
+
+            <div class="Ask-a-coding-question-text">
+                Ask a Coding Question
+
+            </div>
+
+        </div>
+
+        <div class="How-to-use">
+            <div class="How-to-use-logo">
+                <i class="fas fa-info-circle"></i>
+
+            </div>
+
+            <div class="How-to-use-text">
+                How to use: Ask any coding-related question in any programming language. The AI is specialized to help with coding problems and concepts.For non-coding questions, responses may be unpredictable!
+            </div>
+
+        </div>
+
+        <div class="coding-question">
+            <div class="coding-question-logo">
+                <i class="fas fa-terminal"></i>
+
+            </div>
+
+            <div class="coding-question-text">
+                Your Coding Question
+
+            </div>
+
+        </div>
+
+        <form class="question-form">
+            <input type="text" id="question-input" placeholder="e.g., Explain closures in Javascript...">
+            <button type="submit" id="ask-btn">
+              <i class="fas fa-paper-plane"></i> Ask Coding Instructor
+            </button>
+        </form>
+
+    </div>
+
+    <div class="final-response">
+
+        <div class="instructor-response">
+            <div class="instructor-response-logo">
+                <i class="fas fa-graduation-cap"></i>
+
+            </div>
+
+            <div class="instructor-response-text">
+                Instructor's Response
+            </div>
+
+        </div>
+
+        <div class="response" id="ai-response">
+            <!-- I want the answer here given by the AI  -->
+
+        </div>
+
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+    
+
+  </div>
+
+</body>
+</html>
